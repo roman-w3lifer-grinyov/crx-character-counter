@@ -8,6 +8,7 @@ chrome.runtime.onMessage.addListener(selectedText => {
       id: '1',
       title: 'Chars: ' + selectedText.length,
       contexts: ['selection'],
+      enabled: false,
     });
     let numberOfWords = 0;
     if (selectedText.trim().length) {
@@ -18,6 +19,7 @@ chrome.runtime.onMessage.addListener(selectedText => {
       id: '2',
       title: 'Words: ' + numberOfWords,
       contexts: ['selection'],
+      enabled: false,
     });
     let numberOfSpaces = selectedText.match(/\s/g);
     numberOfSpaces = numberOfSpaces ? numberOfSpaces.length : 0;
@@ -25,6 +27,7 @@ chrome.runtime.onMessage.addListener(selectedText => {
       id: '3',
       title: 'Spaces: ' + numberOfSpaces,
       contexts: ['selection'],
+      enabled: false,
     });
   });
 });
