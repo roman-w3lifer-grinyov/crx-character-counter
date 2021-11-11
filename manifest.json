@@ -1,9 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Character counter",
-  "description": "Count selected characters using the context menu",
   "version": "1.0.0",
-  "permissions": ["contextMenus"],
+
+  "description": "Count selected characters using the context menu",
+  "icons": {
+    "16": "img/icons/16x16.png",
+    "48": "img/icons/48x48.png",
+    "128": "img/icons/128x128.png"
+  },
+
   "background": {
     "service_worker": "event-page.js"
   },
@@ -12,5 +18,6 @@
       "matches": ["<all_urls>"],
       "js": ["js/content-script.js"]
     }
-  ]
+  ],
+  "permissions": ["contextMenus"]
 }
