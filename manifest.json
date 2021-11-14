@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Character counter",
-  "version": "1.0.1",
+  "name": "Character Counter",
+  "version": "1.0.2",
 
   "description": "Count selected characters using the context menu",
   "icons": {
