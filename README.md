@@ -23,4 +23,4 @@
 
 ### Icons
 
-- [Tape](https://flaticon.com/free-icon/tape_4910329)
+- [E-learning](https://flaticon.com/free-icon/e-learning_3424696)
