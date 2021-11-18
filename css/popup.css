@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+
+textarea {
+  border: 1px solid #ccc;
+  height: 7rem;
+  width: 100%;
+  outline: 0;
+  resize: vertical;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 350px;
+}
+
+th {
+  border: 1px solid #ccc;
+  width: 75%;
+  padding: 7px;
+  text-align: left;
+}
+
+td {
+  border: 1px solid #ccc;
+  text-align: center;
+}
