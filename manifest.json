@@ -1,8 +1,16 @@
 {
   "manifest_version": 3,
   "name": "Character Counter",
-  "version": "1.0.4",
+  "version": "1.2.0",
 
+  "action": {
+    "default_icon": {
+      "16": "img/icons/16x16.png",
+      "24": "images/24x24.png",
+      "32": "images/32x32.png"
+    },
+    "default_title": "Character Counter"
+  },
   "description": "Count selected characters using the context menu",
   "icons": {
     "16": "img/icons/16x16.png",

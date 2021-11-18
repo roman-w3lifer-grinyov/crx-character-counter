@@ -2,9 +2,4 @@
 
 /* global chrome */
 
-document.addEventListener('mouseup', () => {
-  const selectedText = document.getSelection().toString();
-  if (selectedText.length) {
-    chrome.runtime.sendMessage(selectedText);
-  }
-});
+document.addEventListener('mouseup', () => chrome.runtime.sendMessage(document.getSelection().toString()));

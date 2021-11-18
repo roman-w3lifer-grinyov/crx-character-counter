@@ -3,6 +3,7 @@
 /* global chrome */
 
 chrome.runtime.onMessage.addListener(selectedText => {
+  chrome.action.setBadgeText({text: '' + (selectedText.length || '')});
   chrome.contextMenus.removeAll(() => {
     chrome.contextMenus.create({
       id: '1',
