@@ -10,7 +10,7 @@ body {
 
 textarea {
   border: 1px solid #ccc;
-  height: 7rem;
+  min-height: 7rem;
   width: 100%;
   outline: 0;
   resize: vertical;
