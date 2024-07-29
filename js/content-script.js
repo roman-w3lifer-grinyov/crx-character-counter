@@ -6,10 +6,10 @@ chrome.runtime.sendMessage(''); // To reset badge after page reload
 
 document.addEventListener('selectionchange', () => chrome.runtime.sendMessage(document.getSelection().toString()));
 
-// document.addEventListener('visibilitychange', () => {
-//   chrome.runtime.sendMessage('');
-//   window.getSelection().empty();
-// });
+document.addEventListener('visibilitychange', () => {
+  document.getSelection().empty();
+  document.getElementById('gtx-trans').remove();
+});
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.method === 'getSelection') {
