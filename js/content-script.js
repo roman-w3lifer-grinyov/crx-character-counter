@@ -8,7 +8,10 @@ document.addEventListener('selectionchange', () => chrome.runtime.sendMessage(do
 
 document.addEventListener('visibilitychange', () => {
   document.getSelection().empty();
-  document.getElementById('gtx-trans').remove();
+  const googleTranslateExtension = document.getElementById('gtx-trans');
+  if (googleTranslateExtension) {
+    document.getElementById('gtx-trans').remove();
+  }
 });
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
