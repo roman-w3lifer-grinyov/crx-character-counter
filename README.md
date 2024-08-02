@@ -1,5 +1,6 @@
 # [Character Counter](https://chrome.google.com/webstore/detail/bcofkpkmnhjackmiiidggeopancmglbi)
 
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/bcofkpkmnhjackmiiidggeopancmglbi)
 - [Installation for developers (for Linux users)](#installation-for-developers-for-linux-users)
 - [Sources](#sources)
     - [Icons](#icons)
