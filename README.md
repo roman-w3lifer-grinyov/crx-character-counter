@@ -7,7 +7,9 @@
 
 ---
 
-![Example](img/screenshots/1280x800/example.png)
+![Character Counter - Example 1](img/screenshots/1280x800/example-1.png)
+
+![Character Counter - Example 2](img/screenshots/1280x800/example-2.png)
 
 ---
 
