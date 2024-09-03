@@ -1,21 +1,20 @@
-;'use strict';
 
 /* global chrome */
 
 chrome.runtime.sendMessage(''); // To reset badge after page reload
 
-document.addEventListener('selectionchange', () => chrome.runtime.sendMessage(document.getSelection().toString()));
+document.addEventListener('selectionchange', _ => chrome.runtime.sendMessage(document.getSelection().toString()))
 
-document.addEventListener('visibilitychange', () => {
-  document.getSelection().empty();
-  const googleTranslateExtension = document.getElementById('gtx-trans');
+document.addEventListener('visibilitychange', _ => {
+  document.getSelection().empty()
+  const googleTranslateExtension = document.getElementById('gtx-trans')
   if (googleTranslateExtension) {
-    document.getElementById('gtx-trans').remove();
+    document.getElementById('gtx-trans').remove()
   }
-});
+})
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.method === 'getSelection') {
-    sendResponse({selectedText: document.getSelection().toString()});
+    sendResponse({selectedText: document.getSelection().toString()})
   }
-});
+})

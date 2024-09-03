@@ -1,6 +1,6 @@
-# [Character Counter](https://chrome.google.com/webstore/detail/bcofkpkmnhjackmiiidggeopancmglbi)
+# [Character Counter](https://chromewebstore.google.com/detail/bcofkpkmnhjackmiiidggeopancmglbi)
 
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/bcofkpkmnhjackmiiidggeopancmglbi)
+- [Chrome Web Store](https://chromewebstore.google.com/detail/bcofkpkmnhjackmiiidggeopancmglbi)
 - [Installation for developers (for Linux users)](#installation-for-developers-for-linux-users)
 - [Sources](#sources)
     - [Icons](#icons)
@@ -24,4 +24,4 @@
 
 ### Icons
 
-- [E-learning](https://flaticon.com/free-icon/e-learning_3424696)
+- [E-learning](https://www.flaticon.com/free-icon/e-learning_3424696)
